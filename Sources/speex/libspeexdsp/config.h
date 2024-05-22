@@ -139,10 +139,14 @@
 #define USE_SMALLFT /**/
 
 /* Enable SSE support */
+#if __x86_64__
 #define USE_SSE /**/
+#endif
 
 /* Enable SSE2 support */
+#if __x86_64__
 #define USE_SSE2 /**/
+#endif
 
 /* Use C99 variable-size arrays */
 #define VAR_ARRAYS /**/

@@ -1,0 +1,22 @@
+module speex {
+	module speex {
+		header "speex/speex_bits.h"
+		header "speex/speex_callbacks.h"
+		header "speex/speex_config_types.h"
+		header "speex/speex_header.h"
+		header "speex/speex_stereo.h"
+		header "speex/speex_types.h"
+		header "speex/speex.h"
+		export *
+	}
+
+	module dsp {
+		header "speex/speex_echo.h"
+		header "speex/speex_jitter.h"
+		header "speex/speex_preprocess.h"
+		header "speex/speex_resampler.h"
+		header "speex/speexdsp_config_types.h"
+		header "speex/speexdsp_types.h"
+		export *
+	}
+}
